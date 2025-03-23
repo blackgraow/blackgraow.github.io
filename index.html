@@ -11,6 +11,9 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -89,7 +92,10 @@
         <div class="container text-center">
           <h2>About Me</h2>
           <div class="row mt-4">
-            <div class="col-md-6">
+            <div
+              class="col-md-6"
+              data-aos="fade-right"
+            >
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
                 quaerat expedita optio at sunt delectus hic, odit et quibusdam
@@ -97,7 +103,11 @@
                 voluptates incidunt tenetur.
               </p>
             </div>
-            <div class="col-md-6">
+            <div
+              class="col-md-6"
+              data-aos="fade-left"
+              data-aos-delay="200"
+            >
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
                 ipsam obcaecati laboriosam voluptatibus. Reprehenderit veritatis
@@ -124,7 +134,11 @@
           <h2>My Projects</h2>
           <div class="row justify-content-center mt-4">
             <!-- Project Card 1 -->
-            <div class="col-md-4 mb-3">
+            <div
+              class="col-md-4 mb-3"
+              data-aos="flip-left"
+              data-aos-duration="500"
+            >
               <div class="card">
                 <img
                   src="img/jay-zhang-mFtcZzLruCQ-unsplash.jpg"
@@ -140,7 +154,12 @@
               </div>
             </div>
             <!-- Project Card 2 -->
-            <div class="col-md-4 mb-3">
+            <div
+              class="col-md-4 mb-3"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="50"
+            >
               <div class="card">
                 <img
                   src="img/jay-zhang-U1I0IoQx3Yo-unsplash.jpg"
@@ -156,7 +175,12 @@
               </div>
             </div>
             <!-- Project Card 3 -->
-            <div class="col-md-4 mb-3">
+            <div
+              class="col-md-4 mb-3"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="100"
+            >
               <div class="card">
                 <img
                   src="img/jay-zhang-XX8zaI3XbvE-unsplash.jpg"
@@ -172,7 +196,12 @@
               </div>
             </div>
             <!-- Project Card 4 -->
-            <div class="col-md-4 mb-3">
+            <div
+              class="col-md-4 mb-3"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="150"
+            >
               <div class="card">
                 <img
                   src="img/jay-zhang-ZRoC_96HPnw-unsplash.jpg"
@@ -188,7 +217,12 @@
               </div>
             </div>
             <!-- Project Card 5 -->
-            <div class="col-md-4 mb-3">
+            <div
+              class="col-md-4 mb-3"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="200"
+            >
               <div class="card">
                 <img
                   src="img/joey-r-syRQqk4ory4-unsplash.jpg"
@@ -204,7 +238,12 @@
               </div>
             </div>
             <!-- Project Card 6 -->
-            <div class="col-md-4 mb-3">
+            <div
+              class="col-md-4 mb-3"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="250"
+            >
               <div class="card">
                 <img
                   src="img/vipul-jha-a4X1cdC1QAc-unsplash.jpg"
@@ -231,6 +270,96 @@
         </svg>
       </section>
       <!-- End Projects -->
+
+      <!-- Gallery -->
+      <section id="gallery">
+        <div class="container text-center">
+          <h2>My Gallery</h2>
+          <div class="row justify-content-center mt-4">
+            <!-- Gallery Card 1 -->
+            <div class="col-md-3">
+              <a href="#">
+                <img
+                  src="gallery/1.jpg"
+                  class="img-fluid gallery-img"
+                  alt="Project Image 1"
+                />
+              </a>
+            </div>
+            <!-- Gallery Card 2 -->
+            <div class="col-md-3">
+              <a href="#">
+                <img
+                  src="gallery/2.jpg"
+                  class="img-fluid gallery-img"
+                  alt="Project Image 1"
+                />
+              </a>
+            </div>
+            <!-- Gallery Card 3 -->
+            <div class="col-md-3">
+              <a href="#">
+                <img
+                  src="gallery/3.jpg"
+                  class="img-fluid gallery-img"
+                  alt="Project Image 1"
+                />
+              </a>
+            </div>
+            <!-- Gallery Card 4 -->
+            <div class="col-md-3">
+              <a href="#">
+                <img
+                  src="gallery/4.jpg"
+                  class="img-fluid gallery-img"
+                  alt="Project Image 1"
+                />
+              </a>
+            </div>
+            <!-- Gallery Card 5 -->
+            <div class="col-md-3">
+              <a href="#">
+                <img
+                  src="gallery/5.jpg"
+                  class="img-fluid gallery-img"
+                  alt="Project Image 1"
+                />
+              </a>
+            </div>
+            <!-- Gallery Card 6 -->
+            <div class="col-md-3">
+              <a href="#">
+                <img
+                  src="gallery/6.jpg"
+                  class="img-fluid gallery-img"
+                  alt="Project Image 1"
+                />
+              </a>
+            </div>
+            <!-- Gallery Card 7 -->
+            <div class="col-md-3">
+              <a href="#">
+                <img
+                  src="gallery/7.jpg"
+                  class="img-fluid gallery-img"
+                  alt="Project Image 1"
+                />
+              </a>
+            </div>
+            <!-- Gallery card 8 -->
+            <div class="col-md-3">
+              <a href="#">
+                <img
+                  src="gallery/8.jpg"
+                  class="img-fluid gallery-img"
+                  alt="Project Image 1"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Akhir Gallery -->
 
       <!-- Contact Section -->
       <section id="contact">
@@ -352,6 +481,21 @@
             console.log("Success!", response);
           })
           .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll(".gallery-img");
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = "fade-down";
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      });
+
+      AOS.init({
+        once: true,
+        duration: 1000,
       });
     </script>
   </body>
