@@ -28,13 +28,13 @@ section {
   font-weight: bold;
   font-style: italic;
   top: 40px;
-  left: -100px;
+  left: 50%;
+  transform: translateX(-50%);
   opacity: 0;
   transition: 0.5s;
 }
 .keyboard-box:hover::before {
-  left: 50%;
-  transform: translateX(-50%);
+  
   opacity: 0.2;
 }
 
@@ -46,13 +46,13 @@ section {
   font-weight: bold;
   font-style: italic;
   top: 365px;
-  left: 100;
+  left: 50%;
+  transform: translateX(-50%);
   opacity: 0;
   transition: 0.5s;
 }
 .keyboard-box:hover::after {
-  left: 50%;
-  transform: translateX(-50%);
+
   opacity: 0.2;
 }
 .keyboard-name {
